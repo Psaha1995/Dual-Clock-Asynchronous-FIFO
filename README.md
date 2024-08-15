@@ -10,6 +10,6 @@ Dual n-bit Gray code counter block diagram
 image Behavioural Simulation Result for the Testbench attached
 
 
-Results: ◦ Designed Asynchronous FIFO in Verilog, synthesised & verified the design in Xilinx Vivado. ◦ Synchronization of FIFO pointers is accomplished using Gray Code to avoid multi-bit signal transitions. ◦ Implemented 2 Flip-Flop Synchronizer to avoid meta-stability issues in CDC
+Results: ◦ Designed Asynchronous FIFO in Verilog, synthesised & verified the design in Modelsim. ◦ Synchronization of FIFO pointers is accomplished using Gray Code to avoid multi-bit signal transitions. ◦ Implemented 2 Flip-Flop Synchronizer to avoid meta-stability issues in CDC
 
 Reference - Simulation and Synthesis Techniques for Asynchronous FIFO Design ,Clifford E. Cummings, Sunburst Design, Inc.
