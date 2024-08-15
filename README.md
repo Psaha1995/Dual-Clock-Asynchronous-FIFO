@@ -2,11 +2,13 @@ FIFOs are often used to safely pass data from one clock domain to another asynch
 
 
 Dual n-bit Gray code counter block diagram
+![Simulation_waveform](https://github.com/user-attachments/assets/12bc4a04-ea57-4238-8142-977c00f66727)
 
                                        **Vivado Project** 
 
 
 image Behavioural Simulation Result for the Testbench attached
+
 
 Results: ◦ Designed Asynchronous FIFO in Verilog, synthesised & verified the design in Xilinx Vivado. ◦ Synchronization of FIFO pointers is accomplished using Gray Code to avoid multi-bit signal transitions. ◦ Implemented 2 Flip-Flop Synchronizer to avoid meta-stability issues in CDC
 
